@@ -1,0 +1,56 @@
+<h1>Editing rating</h1>
+
+<% form_for(@rating) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :rateable_id %><br />
+    <%= f.text_field :rateable_id %>
+  </p>
+  <p>
+    <%= f.label :rateable_type %><br />
+    <%= f.text_field :rateable_type %>
+  </p>
+  <p>
+    <%= f.label :review_rating %><br />
+    <%= f.text_field :review_rating %>
+  </p>
+  <p>
+    <%= f.label :value_rating %><br />
+    <%= f.text_field :value_rating %>
+  </p>
+  <p>
+    <%= f.label :location_rating %><br />
+    <%= f.text_field :location_rating %>
+  </p>
+  <p>
+    <%= f.label :service_user_rating %><br />
+    <%= f.text_field :service_user_rating %>
+  </p>
+  <p>
+    <%= f.label :cleanliness_rating %><br />
+    <%= f.text_field :cleanliness_rating %>
+  </p>
+  <p>
+    <%= f.label :subjective_rating %><br />
+    <%= f.text_field :subjective_rating %>
+  </p>
+  <p>
+    <%= f.label :subjective_rating_name %><br />
+    <%= f.text_field :subjective_rating_name %>
+  </p>
+  <p>
+    <%= f.label :created_at %><br />
+    <%= f.datetime_select :created_at %>
+  </p>
+  <p>
+    <%= f.label :updated_at %><br />
+    <%= f.datetime_select :updated_at %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @rating %> |
+<%= link_to 'Back', ratings_path %>

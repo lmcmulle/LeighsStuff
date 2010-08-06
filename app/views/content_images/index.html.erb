@@ -1,0 +1,36 @@
+<h1>Listing content_images</h1>
+
+<table>
+  <tr>
+    <th>Image</th>
+    <th>Imageable</th>
+    <th>Imageable type</th>
+    <th>Gallery name</th>
+    <th>Placement tag</th>
+    <th>Position</th>
+    <th>Image updated at</th>
+    <th>Created at</th>
+    <th>Updated at</th>
+  </tr>
+
+<% @content_images.each do |content_image| %>
+  <tr>
+    <td><%=h content_image.image_id %></td>
+    <td><%=h content_image.imageable_id %></td>
+    <td><%=h content_image.imageable_type %></td>
+    <td><%=h content_image.gallery_name %></td>
+    <td><%=h content_image.placement_tag %></td>
+    <td><%=h content_image.position %></td>
+    <td><%=h content_image.image_updated_at %></td>
+    <td><%=h content_image.created_at %></td>
+    <td><%=h content_image.updated_at %></td>
+    <td><%= link_to 'Show', content_image %></td>
+    <td><%= link_to 'Edit', edit_content_image_path(content_image) %></td>
+    <td><%= link_to 'Destroy', content_image, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New content_image', new_content_image_path %>

@@ -1,0 +1,23 @@
+--- 
+content_images_001: 
+  image_id: "1"
+  position: "1"
+  created_at: 2010-08-01 14:04:42
+  placement_tag: MyString
+  updated_at: 2010-08-01 14:04:42
+  gallery_name: MyString
+  id: "298486374"
+  imageable_type: MyString
+  imageable_id: "1"
+  photo_id: 
+content_images_002: 
+  image_id: "1"
+  position: "1"
+  created_at: 2010-08-01 14:04:42
+  placement_tag: MyString
+  updated_at: 2010-08-01 14:04:42
+  gallery_name: MyString
+  id: "980190962"
+  imageable_type: MyString
+  imageable_id: "1"
+  photo_id: 

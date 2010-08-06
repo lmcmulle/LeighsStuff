@@ -1,0 +1,48 @@
+<h1>New image</h1>
+
+<% form_for(@image) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :user_id %><br />
+    <%= f.text_field :user_id %>
+  </p>
+  <p>
+    <%= f.label :gallery_name %><br />
+    <%= f.text_field :gallery_name %>
+  </p>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </p>
+  <p>
+    <%= f.label :exifdata %><br />
+    <%= f.text_area :exifdata %>
+  </p>
+     <p>
+    <%= f.label "File name" %><br />
+    <%= f.file_field :photo %>
+  </p>
+
+  <p>
+    <%= f.label :owner_rating %><br />
+    <%= f.text_field :owner_rating %>
+  </p>
+  <p>
+    <%= f.label :created_at %><br />
+    <%= f.datetime_select :created_at %>
+  </p>
+  <p>
+    <%= f.label :updated_at %><br />
+    <%= f.datetime_select :updated_at %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', images_path %>

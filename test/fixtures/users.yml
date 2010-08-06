@@ -1,0 +1,241 @@
+--- 
+users_004: 
+  facebook_id: 
+  single_access_token: " "
+  last_request_at: 
+  created_at: 2010-07-17 01:07:50
+  twitter_auth_code: 
+  facebook_auth_code: 
+  crypted_password: 
+  perishable_token: " "
+  updated_at: 2010-07-17 01:07:50
+  id: "5"
+  featured_status: "0"
+  karma: 
+  openid_identifier: 
+  failed_login_count: "0"
+  current_login_ip: 
+  profile_pic_id: 
+  password_salt: 
+  current_login_at: 
+  last_name: 
+  twitter_id: 
+  persistence_token: " "
+  login_count: "0"
+  bio: 
+  last_login_ip: 
+  login: SampleEditor
+  last_login_at: 
+  first_name: Ed
+  email: 
+  photos_count: 
+users_005: 
+  facebook_id: 
+  single_access_token: " "
+  last_request_at: 
+  created_at: 2010-07-17 01:08:01
+  twitter_auth_code: 
+  facebook_auth_code: 
+  crypted_password: 
+  perishable_token: " "
+  updated_at: 2010-07-17 01:08:01
+  id: "6"
+  featured_status: "0"
+  karma: 
+  openid_identifier: 
+  failed_login_count: "0"
+  current_login_ip: 
+  profile_pic_id: 
+  password_salt: 
+  current_login_at: 
+  last_name: 
+  twitter_id: 
+  persistence_token: " "
+  login_count: "0"
+  bio: 
+  last_login_ip: 
+  login: SamplePublisher
+  last_login_at: 
+  first_name: Pub
+  email: 
+  photos_count: 
+users_006: 
+  facebook_id: 
+  single_access_token: " "
+  last_request_at: 
+  created_at: 2010-07-17 01:08:18
+  twitter_auth_code: 
+  facebook_auth_code: 
+  crypted_password: 
+  perishable_token: " "
+  updated_at: 2010-07-17 01:08:18
+  id: "7"
+  featured_status: "0"
+  karma: 
+  openid_identifier: 
+  failed_login_count: "0"
+  current_login_ip: 
+  profile_pic_id: 
+  password_salt: 
+  current_login_at: 
+  last_name: 
+  twitter_id: 
+  persistence_token: " "
+  login_count: "0"
+  bio: 
+  last_login_ip: 
+  login: SampleSiteAdmin
+  last_login_at: 
+  first_name: Addy
+  email: 
+  photos_count: 
+users_007: 
+  facebook_id: 
+  single_access_token: ZjNfV_IwKSPWPbKvqRth
+  last_request_at: 2010-08-02 02:17:12
+  created_at: 2010-08-02 02:17:12
+  twitter_auth_code: 
+  facebook_auth_code: 
+  crypted_password: 556b3726cde6d33d9ab267a4468b5dfb6c3c8772349306875d0d7cc251c06f1b4786558be6d27c85faa6c26707f15bfdd333d1104921ddebca22ae458d1ee72a
+  perishable_token: BNXCHiOzcUToSon55xlp
+  updated_at: 2010-08-02 02:17:12
+  id: "8"
+  featured_status: "0"
+  karma: 
+  openid_identifier: 
+  failed_login_count: "0"
+  current_login_ip: 127.0.0.1
+  profile_pic_id: 
+  password_salt: jfWeeas89JSt9fAvMoRS
+  current_login_at: 2010-08-02 02:17:12
+  last_name: Fake
+  twitter_id: 
+  persistence_token: 6fcfe9de060cab464c7c9f66fa0d4e50b5ae43bb316dd23dd84f6ea19c715538ee253e96f179a0d20731b09a2754c3ccfb7d25f4b92cc95c4fa086488d98c55f
+  login_count: "1"
+  bio: 
+  last_login_ip: 
+  login: FakeLeigh
+  last_login_at: 
+  first_name: Fake
+  email: askalex@xxxx.cpm
+  photos_count: 
+users_008: 
+  facebook_id: 
+  single_access_token: " "
+  last_request_at: 
+  created_at: 2010-08-02 02:23:00
+  twitter_auth_code: 
+  facebook_auth_code: 
+  crypted_password: 
+  perishable_token: " "
+  updated_at: 2010-08-02 02:23:00
+  id: "9"
+  featured_status: "0"
+  karma: 
+  openid_identifier: 
+  failed_login_count: "0"
+  current_login_ip: 
+  profile_pic_id: 
+  password_salt: 
+  current_login_at: 
+  last_name: McMullen
+  twitter_id: 
+  persistence_token: " "
+  login_count: "0"
+  bio: 
+  last_login_ip: 
+  login: Leigh
+  last_login_at: 
+  first_name: Leigh
+  email: leigh.mcmullen@gmail.com
+  photos_count: 
+users_001: 
+  facebook_id: 
+  single_access_token: " "
+  last_request_at: 
+  created_at: 2010-07-17 01:06:56
+  twitter_auth_code: 
+  facebook_auth_code: 
+  crypted_password: 
+  perishable_token: " "
+  updated_at: 2010-07-17 01:06:56
+  id: "2"
+  featured_status: "0"
+  karma: 
+  openid_identifier: 
+  failed_login_count: "0"
+  current_login_ip: 
+  profile_pic_id: 
+  password_salt: 
+  current_login_at: 
+  last_name: 
+  twitter_id: 
+  persistence_token: " "
+  login_count: "0"
+  bio: 
+  last_login_ip: 
+  login: SampleUser
+  last_login_at: 
+  first_name: Samusir
+  email: 
+  photos_count: 
+users_002: 
+  facebook_id: 
+  single_access_token: " "
+  last_request_at: 
+  created_at: 2010-07-17 01:07:17
+  twitter_auth_code: 
+  facebook_auth_code: 
+  crypted_password: 
+  perishable_token: " "
+  updated_at: 2010-07-17 01:07:17
+  id: "3"
+  featured_status: "0"
+  karma: 
+  openid_identifier: 
+  failed_login_count: "0"
+  current_login_ip: 
+  profile_pic_id: 
+  password_salt: 
+  current_login_at: 
+  last_name: 
+  twitter_id: 
+  persistence_token: " "
+  login_count: "0"
+  bio: 
+  last_login_ip: 
+  login: SampleModirator
+  last_login_at: 
+  first_name: Mod
+  email: 
+  photos_count: 
+users_003: 
+  facebook_id: 
+  single_access_token: " "
+  last_request_at: 
+  created_at: 2010-07-17 01:07:39
+  twitter_auth_code: 
+  facebook_auth_code: 
+  crypted_password: 
+  perishable_token: " "
+  updated_at: 2010-07-17 01:07:39
+  id: "4"
+  featured_status: "0"
+  karma: 
+  openid_identifier: 
+  failed_login_count: "0"
+  current_login_ip: 
+  profile_pic_id: 
+  password_salt: 
+  current_login_at: 
+  last_name: 
+  twitter_id: 
+  persistence_token: " "
+  login_count: "0"
+  bio: 
+  last_login_ip: 
+  login: SampleAuthor
+  last_login_at: 
+  first_name: Sam
+  email: 
+  photos_count: 

@@ -1,0 +1,58 @@
+<p>
+  <b>Rateable:</b>
+  <%=h @rating.rateable_id %>
+</p>
+
+<p>
+  <b>Rateable type:</b>
+  <%=h @rating.rateable_type %>
+</p>
+
+<p>
+  <b>Review rating:</b>
+  <%=h @rating.review_rating %>
+</p>
+
+<p>
+  <b>Value rating:</b>
+  <%=h @rating.value_rating %>
+</p>
+
+<p>
+  <b>Location rating:</b>
+  <%=h @rating.location_rating %>
+</p>
+
+<p>
+  <b>Service user rating:</b>
+  <%=h @rating.service_user_rating %>
+</p>
+
+<p>
+  <b>Cleanliness rating:</b>
+  <%=h @rating.cleanliness_rating %>
+</p>
+
+<p>
+  <b>Subjective rating:</b>
+  <%=h @rating.subjective_rating %>
+</p>
+
+<p>
+  <b>Subjective rating name:</b>
+  <%=h @rating.subjective_rating_name %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%=h @rating.created_at %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%=h @rating.updated_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_rating_path(@rating) %> |
+<%= link_to 'Back', ratings_path %>

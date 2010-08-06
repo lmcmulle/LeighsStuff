@@ -1,0 +1,47 @@
+<h1>New content_image</h1>
+
+<% form_for(@content_image) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :image_id %><br />
+    <%= f.text_field :image_id %>
+  </p>
+  <p>
+    <%= f.label :imageable_id %><br />
+    <%= f.text_field :imageable_id %>
+  </p>
+  <p>
+    <%= f.label :imageable_type %><br />
+    <%= f.text_field :imageable_type %>
+  </p>
+  <p>
+    <%= f.label :gallery_name %><br />
+    <%= f.text_field :gallery_name %>
+  </p>
+  <p>
+    <%= f.label :placement_tag %><br />
+    <%= f.text_field :placement_tag %>
+  </p>
+  <p>
+    <%= f.label :position %><br />
+    <%= f.text_field :position %>
+  </p>
+  <p>
+    <%= f.label :image_updated_at %><br />
+    <%= f.datetime_select :image_updated_at %>
+  </p>
+  <p>
+    <%= f.label :created_at %><br />
+    <%= f.datetime_select :created_at %>
+  </p>
+  <p>
+    <%= f.label :updated_at %><br />
+    <%= f.datetime_select :updated_at %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', content_images_path %>

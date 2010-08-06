@@ -1,0 +1,40 @@
+<h1>Listing ratings</h1>
+
+<table>
+  <tr>
+    <th>Rateable</th>
+    <th>Rateable type</th>
+    <th>Review rating</th>
+    <th>Value rating</th>
+    <th>Location rating</th>
+    <th>Service user rating</th>
+    <th>Cleanliness rating</th>
+    <th>Subjective rating</th>
+    <th>Subjective rating name</th>
+    <th>Created at</th>
+    <th>Updated at</th>
+  </tr>
+
+<% @ratings.each do |rating| %>
+  <tr>
+    <td><%=h rating.rateable_id %></td>
+    <td><%=h rating.rateable_type %></td>
+    <td><%=h rating.review_rating %></td>
+    <td><%=h rating.value_rating %></td>
+    <td><%=h rating.location_rating %></td>
+    <td><%=h rating.service_user_rating %></td>
+    <td><%=h rating.cleanliness_rating %></td>
+    <td><%=h rating.subjective_rating %></td>
+    <td><%=h rating.subjective_rating_name %></td>
+    <td><%=h rating.created_at %></td>
+    <td><%=h rating.updated_at %></td>
+    <td><%= link_to 'Show', rating %></td>
+    <td><%= link_to 'Edit', edit_rating_path(rating) %></td>
+    <td><%= link_to 'Destroy', rating, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New rating', new_rating_path %>

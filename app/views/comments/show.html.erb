@@ -1,0 +1,63 @@
+<p>
+  <b>Commentable type:</b>
+  <%=h @comment.commentable_type %>
+</p>
+
+<p>
+  <b>Commentable:</b>
+  <%=h @comment.commentable_id %>
+</p>
+
+<p>
+  <b>Headline:</b>
+  <%=h @comment.headline %>
+</p>
+
+<p>
+  <b>Body:</b>
+  <%=h @comment.body %>
+</p>
+
+<p>
+  <b>Rating:</b>
+  <%=h @comment.rating %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%=h @comment.user_id %>
+</p>
+
+<p>
+  <b>Helpful votes:</b>
+  <%=h @comment.helpful_votes %>
+</p>
+
+<p>
+  <b>Editorial workflow status:</b>
+  <%=h @comment.editorial_workflow_status %>
+</p>
+
+<p>
+  <b>Publish date:</b>
+  <%=h @comment.publish_date %>
+</p>
+
+<p>
+  <b>Published:</b>
+  <%=h @comment.published %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%=h @comment.created_at %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%=h @comment.updated_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_comment_path(@comment) %> |
+<%= link_to 'Back', comments_path %>

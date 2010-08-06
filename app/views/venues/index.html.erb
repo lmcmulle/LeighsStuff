@@ -1,0 +1,48 @@
+<h1>Listing venues</h1>
+
+<table>
+  <tr>
+    <th>Venue type</th>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Telephone</th>
+    <th>Email</th>
+    <th>Locality</th>
+    <th>Editorial rating</th>
+    <th>User</th>
+    <th>Average user rating</th>
+    <th>Editorial workflow status</th>
+    <th>Publish date</th>
+    <th>Published</th>
+    <th>Featured status</th>
+    <th>Created at</th>
+    <th>Updated at</th>
+  </tr>
+
+<% @venues.each do |venue| %>
+  <tr>
+    <td><%=h venue.venue_type %></td>
+    <td><%=h venue.name %></td>
+    <td><%=h venue.description %></td>
+    <td><%=h venue.telephone %></td>
+    <td><%=h venue.email %></td>
+    <td><%=h venue.locality %></td>
+    <td><%=h venue.editorial_rating %></td>
+    <td><%=h venue.user_id %></td>
+    <td><%=h venue.average_user_rating %></td>
+    <td><%=h venue.editorial_workflow_status %></td>
+    <td><%=h venue.publish_date %></td>
+    <td><%=h venue.published %></td>
+    <td><%=h venue.featured_status %></td>
+    <td><%=h venue.created_at %></td>
+    <td><%=h venue.updated_at %></td>
+    <td><%= link_to 'Show', venue %></td>
+    <td><%= link_to 'Edit', edit_venue_path(venue) %></td>
+    <td><%= link_to 'Destroy', venue, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New venue', new_venue_path %>

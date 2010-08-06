@@ -1,0 +1,45 @@
+<p>
+  <b>User:</b>
+  <%=h @image.user_id %>
+</p>
+
+<p>
+  <b>Gallery name:</b>
+  <%=h @image.gallery_name %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @image.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @image.description %>
+</p>
+
+<p>
+  <b>Exifdata:</b>
+  <%=h @image.exifdata %>
+</p>
+
+<%= image_tag @image.photo.url(:medium) %>
+
+<p>
+  <b>Owner rating:</b>
+  <%=h @image.owner_rating %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%=h @image.created_at %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%=h @image.updated_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_image_path(@image) %> |
+<%= link_to 'Back', images_path %>

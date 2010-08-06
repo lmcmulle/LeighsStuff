@@ -1,0 +1,73 @@
+<p>
+  <b>Locatable:</b>
+  <%=h @location.locatable_id %>
+</p>
+
+<p>
+  <b>Locatable type:</b>
+  <%=h @location.locatable_type %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @location.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @location.description %>
+</p>
+
+<p>
+  <b>Street:</b>
+  <%=h @location.street %>
+</p>
+
+<p>
+  <b>Locality:</b>
+  <%=h @location.locality %>
+</p>
+
+<p>
+  <b>Region:</b>
+  <%=h @location.region %>
+</p>
+
+<p>
+  <b>Postal code:</b>
+  <%=h @location.postal_code %>
+</p>
+
+<p>
+  <b>Country:</b>
+  <%=h @location.country %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%=h @location.user_id %>
+</p>
+
+<p>
+  <b>Latitude:</b>
+  <%=h @location.latitude %>
+</p>
+
+<p>
+  <b>Longitude:</b>
+  <%=h @location.longitude %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%=h @location.created_at %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%=h @location.updated_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_location_path(@location) %> |
+<%= link_to 'Back', locations_path %>

@@ -1,0 +1,42 @@
+<h1>Listing comments</h1>
+
+<table>
+  <tr>
+    <th>Commentable type</th>
+    <th>Commentable</th>
+    <th>Headline</th>
+    <th>Body</th>
+    <th>Rating</th>
+    <th>User</th>
+    <th>Helpful votes</th>
+    <th>Editorial workflow status</th>
+    <th>Publish date</th>
+    <th>Published</th>
+    <th>Created at</th>
+    <th>Updated at</th>
+  </tr>
+
+<% @comments.each do |comment| %>
+  <tr>
+    <td><%=h comment.commentable_type %></td>
+    <td><%=h comment.commentable_id %></td>
+    <td><%=h comment.headline %></td>
+    <td><%=h comment.body %></td>
+    <td><%=h comment.rating %></td>
+    <td><%=h comment.user_id %></td>
+    <td><%=h comment.helpful_votes %></td>
+    <td><%=h comment.editorial_workflow_status %></td>
+    <td><%=h comment.publish_date %></td>
+    <td><%=h comment.published %></td>
+    <td><%=h comment.created_at %></td>
+    <td><%=h comment.updated_at %></td>
+    <td><%= link_to 'Show', comment %></td>
+    <td><%= link_to 'Edit', edit_comment_path(comment) %></td>
+    <td><%= link_to 'Destroy', comment, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New comment', new_comment_path %>

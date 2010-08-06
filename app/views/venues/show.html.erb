@@ -1,0 +1,78 @@
+<p>
+  <b>Venue type:</b>
+  <%=h @venue.venue_type %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @venue.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @venue.description %>
+</p>
+
+<p>
+  <b>Telephone:</b>
+  <%=h @venue.telephone %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @venue.email %>
+</p>
+
+<p>
+  <b>Locality:</b>
+  <%=h @venue.locality %>
+</p>
+
+<p>
+  <b>Editorial rating:</b>
+  <%=h @venue.editorial_rating %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%=h @venue.user_id %>
+</p>
+
+<p>
+  <b>Average user rating:</b>
+  <%=h @venue.average_user_rating %>
+</p>
+
+<p>
+  <b>Editorial workflow status:</b>
+  <%=h @venue.editorial_workflow_status %>
+</p>
+
+<p>
+  <b>Publish date:</b>
+  <%=h @venue.publish_date %>
+</p>
+
+<p>
+  <b>Published:</b>
+  <%=h @venue.published %>
+</p>
+
+<p>
+  <b>Featured status:</b>
+  <%=h @venue.featured_status %>
+</p>
+
+<p>
+  <b>Created at:</b>
+  <%=h @venue.created_at %>
+</p>
+
+<p>
+  <b>Updated at:</b>
+  <%=h @venue.updated_at %>
+</p>
+
+
+<%= link_to 'Edit', edit_venue_path(@venue) %> |
+<%= link_to 'Back', venues_path %>

@@ -1,0 +1,39 @@
+<h1>Listing images</h1>
+
+<table>
+  <tr>
+    <th>User</th>
+    <th>Gallery name</th>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Exifdata</th>
+    <th>Date time stamp</th>
+    <th>Image file name</th>
+    <th>Image content type</th>
+    <th>Image file size</th>
+    <th>Owner rating</th>
+    <th>Created at</th>
+    <th>Updated at</th>
+  </tr>
+
+<% @images.each do |image| %>
+  <tr>
+    <td><%=h image.user_id %></td>
+    <td><%=h image.gallery_name %></td>
+    <td><%=h image.name %></td>
+    <td><%=h image.description %></td>
+    <td><%=h image.exifdata %></td>
+    <td><%= image_tag @image.photo.url(:thumb) %></td>
+    <td><%=h image.owner_rating %></td>
+    <td><%=h image.created_at %></td>
+    <td><%=h image.updated_at %></td>
+    <td><%= link_to 'Show', image %></td>
+    <td><%= link_to 'Edit', edit_image_path(image) %></td>
+    <td><%= link_to 'Destroy', image, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New image', new_image_path %>

@@ -1,0 +1,64 @@
+<h1>Listing stories</h1>
+
+<table>
+  <tr>
+    <th>Content type</th>
+    <th>Title</th>
+    <th>By line</th>
+    <th>One liner</th>
+    <th>Lede</th>
+    <th>Body</th>
+    <th>Travel date</th>
+    <th>Season</th>
+    <th>Seasonal</th>
+    <th>Venue</th>
+    <th>User</th>
+    <th>Parent</th>
+    <th>Lft</th>
+    <th>Rgt</th>
+    <th>Poi timestamp</th>
+    <th>Average user rating</th>
+    <th>Helpful votes</th>
+    <th>Editorial workflow status</th>
+    <th>Publish date</th>
+    <th>Published</th>
+    <th>Featured status</th>
+    <th>Created at</th>
+    <th>Updated at</th>
+  </tr>
+
+<% @stories.each do |story| %>
+  <tr>
+    <td><%=h story.content_type %></td>
+    <td><%=h story.title %></td>
+    <td><%=h story.by_line %></td>
+    <td><%=h story.one_liner %></td>
+    <td><%=h story.lede %></td>
+    <td><%=h story.body %></td>
+    <td><%=h story.travel_date %></td>
+    <td><%=h story.season %></td>
+    <td><%=h story.seasonal %></td>
+    <td><%=h story.venue_id %></td>
+    <td><%=h story.user_id %></td>
+    <td><%=h story.parent_id %></td>
+    <td><%=h story.lft %></td>
+    <td><%=h story.rgt %></td>
+    <td><%=h story.poi_timestamp %></td>
+    <td><%=h story.average_user_rating %></td>
+    <td><%=h story.helpful_votes %></td>
+    <td><%=h story.editorial_workflow_status %></td>
+    <td><%=h story.publish_date %></td>
+    <td><%=h story.published %></td>
+    <td><%=h story.featured_status %></td>
+    <td><%=h story.created_at %></td>
+    <td><%=h story.updated_at %></td>
+    <td><%= link_to 'Show', story %></td>
+    <td><%= link_to 'Edit', edit_story_path(story) %></td>
+    <td><%= link_to 'Destroy', story, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New story', new_story_path %>
