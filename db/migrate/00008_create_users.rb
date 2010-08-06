@@ -33,7 +33,7 @@ class CreateUsers < ActiveRecord::Migration
         t.datetime  :last_login_at                                      # optional, see Authlogic::Session::MagicColumns
         t.string    :current_login_ip                                   # optional, see Authlogic::Session::MagicColumns
         t.string    :last_login_ip                                      # optional, see Authlogic::Session::MagicColumns
-
+        t.integer   :photos_count  #for attachment foo?
            #Has MANY locations through polymorphic associations
            #has MANY Images through Polymorphic Association
            #has many stories

@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   active_scaffold :user do |config|
-   config.columns = [:login, :first_name, :last_name, :email, :password, :password_confirmation]
+   config.columns = [:login, :first_name, :last_name, :email]#, :password, :password_confirmation]
   end
 #
 #  # GET /users
@@ -8,7 +8,7 @@ class UsersController < ApplicationController
 #  def index
 #    @users = User.all
 #
-#    respond_to do |format|
+#   respond_to do |format|
 #      format.html # index2.html.erb
 #      format.xml  { render :xml => @users }
 #    end
